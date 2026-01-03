@@ -225,7 +225,7 @@ background-image: url(../images/arr.png);
 }
 .arrow_down {
     position: absolute;
-    bottom: 10px;
+    bottom: calc(40vh - 0px);
     left: 50%;
     transform: translate(-50%);
 }
