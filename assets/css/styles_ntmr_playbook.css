@@ -261,6 +261,12 @@ padding: 0px 15px;
     font-family: AlbertSans-Bold !important;
 }
 @media (max-width: 992px) {
+  .arrow_down {
+    position: absolute;
+    bottom: calc(5vh - 0px);
+    left: 50%;
+    transform: translate(-50%);
+}
   .ntmr_container{
     width: 100%;
   }
