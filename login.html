@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <!-- CSS  -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/styles_ntmr_playbook.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- SCRIPTS  -->
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/all.min.js"></script>
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+
+    <title>NTMR Playbook HOME</title>
+</head>
+
+<body>
+    <a id="button"></a>
+    <div class="container-fluid">
+
+        <div class="row log_bg">
+            <div class="ntmr_container">
+                <div class="col-xl-5 col-lg-5 co-md-6 col-sm-12 float-end">
+                    <div class="card shadow-sm" style="background-color: rgb(227 227 227 / 80%);">
+                        <div class="card-body">
+                            <center>
+                                <h3 class="abs-bold ">
+                                    NTMR Playbook
+                                </h3>
+                                <hr>
+                            </center>
+                            <div class="row">
+                                <div class="col-sm-11 m-auto mb-3">
+                                    <label for="" class="form-label abs-medium">Email <sup>*</sup></label>
+                                    <input type="text" class="form-control" name="email" placeholder="Enter Email ID">
+                                </div>
+                                <div class="col-sm-11 m-auto mb-3">
+                                    <label for="" class="form-label abs-medium">Password <sup>*</sup></label>
+                                    <input type="password" class="form-control" name="pwd" placeholder="Enter Password">
+                                </div>
+                                <div class="col-sm-11 m-auto mb-3">
+                                    <div class="d-flex justify-content-between gap-2 align-items-center flex-wrap">
+                                        <label for="remm" class="form-label text-primary">
+                                            <input type="checkbox" id="remm"> Remember
+                                            me</label>
+
+                                        <!-- <a href="#" class="btn btn-link text-primary">Forgot password ?</a> -->
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-11 m-auto mb-3">
+                                    <button type="button" class="btn btn-warning w-100 text-white shadow-sm">
+                                        <i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    AOS.init({
+        duration: 1000
+    });
+    var btn = $('#button');
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+</script>
+
+</html>

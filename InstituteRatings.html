@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <!-- CSS  -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/styles_ntmr_playbook.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- SCRIPTS  -->
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/all.min.js"></script>
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+
+    <title>NTMR Playbook HOME</title>
+    <style>
+        button.nav-link {
+            color: #333;
+            font-family: AlbertSans-Medium;
+            border-bottom: 0px solid #dee2e6 !important;
+            margin-bottom: 10px !important;
+        }
+
+        button.nav-link::after {
+            height: 0px !important;
+        }
+
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            color: #2563EB;
+            background-color: #EFF6FF;
+            border-bottom: 1px solid #dee2e6 !important;
+        }
+
+        .accordion-button::after {
+            background-image: url(./assets/images/plus-104.png) !important;
+            width: 30px;
+            height: 30px;
+            background-color: #f9f9f9;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-position: center;
+            background-size: 45%;
+            border: 1px solid #eee;
+        }
+
+        .accordion-button:not(.collapsed)::after {
+            transform: rotate(-135deg) !important;
+        }
+
+        @media (max-width: 991px) {
+            .tab-content>.tab-pane {
+                display: block;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a id="button"></a>
+<div class="container-fluid">
+        <div class="row" style="background-color: #204667;">
+            <div class="col-sm-12 p-0">
+                <div class="top_m fixed-top"  style="background-color: #204667;">
+                    <div class="ntmr_container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #204667;">
+
+                                    <div class="container-fluid">
+                                        <a class="navbar-brand" href="javascript:void(0)" style="line-height: 1.2;">
+                                            <div class="d-flex justify-content-start align-items-center gap-2">
+                                                <img src="./assets/images/new_NTMR-logo.svg" height="50px" alt="">
+                                                <span> Nursing Talent Market <br>
+                                                    Reforms Playbook</span>
+                                            </div>
+                                        </a>
+                                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#mynavbar">
+                                            <!-- <span class="navbar-toggler-icon"></span> -->
+                                            <img style="width: 25px;" src="./assets/images/Menu.png">
+                                        </button>
+                                        <div class="collapse navbar-collapse" id="mynavbar">
+                                            <ul class="navbar-nav ms-auto">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" href="index.html">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="disclaimer.html">Diagnostic Test</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="ReformFramework.html">Reform Framework</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown">Reform Elements
+                                                        <span class="arrow"></span> </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item"
+                                                                href=" CentralisedAdmissions.html">Centralised
+                                                                Admissions</a></li>
+                                                        <li><a class="dropdown-item" href="Awareness.html">Awareness</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                href="Examination.html">Examination</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                href="Registrationrenewal.html">Registration and
+                                                                Renewal</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                href="GrievanceRedressal.html">Grievance Redressal</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                href="InstituteRatings.html">Institute
+                                                                Ratings</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                href="InstituteMentoring.html">Institute Mentoring</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                href="Competencycertification.html">Competency
+                                                                Certification</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                href="ContinuedNursingeducation.html">Continued Nursing
+                                                                Education</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                href="IntegratedDigitalPlatform.html">Integrated Digital
+                                                                Platform</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="Partners.html">Partners</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="DownloadPlaybook.html">
+                                                        <span class="plbook-dwn"> Download Playbook</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid"  style="padding-top: 76px;">
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <div class="position-relative">
+                    <img class="w-100 bann_img_sty pg_height" src="./assets/images/top_page_bann.png" alt="">
+                    <div class="banner_content">
+                        <h1 class="abs-medium text-white">Processes</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12" style="background-color: #F8FAFC;">
+                <nav class="navbar navbar-expand-md navbar-dark">
+
+                    <div class="container-fluid">
+                        <a class="navbar-brand tabs_name text-secondary" href="javascript:void(0)"
+                            style="line-height: 1.2;">
+                            Institute Ratings
+                        </a>
+                        <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mynavbar_inn">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                            <img style="width: 25px;" src="./assets/images/MenuB.png">
+                        </button>
+                        <div class="collapse navbar-collapse" id="mynavbar_inn">
+                            <ul class="inst_rating">
+                                <li><a class="" href=" CentralisedAdmissions.html">Centralised Admissions</a></li>
+                                <li><a class="" href="Awareness.html">Awareness</a></li>
+                                <li><a class="" href="Examination.html">Examination</a></li>
+                                <li><a class="" href="Registrationrenewal.html">Registration and Renewal</a></li>
+                                <li><a class="" href="GrievanceRedressal.html">Grievance Redressal</a></li>
+                                <li><a class="active" href="InstituteRatings.html">Institute Ratings</a></li>
+                                <li><a class="" href="InstituteMentoring.html">Institute Mentoring</a></li>
+                                <li><a class="" href="Competencycertification.html">Competency Certification</a></li>
+                                <li><a class="" href="ContinuedNursingeducation.html">Continued Nursing Education</a>
+                                </li>
+                                <li><a class="" href="IntegratedDigitalPlatform.html">Integrated Digital Platform</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hide_768" style="background-color: #ffffff;">
+                <ul class="sideTab">
+                    <li>
+                        <h2 class="accordion-header">
+                            <button class="asd accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fa-solid fa-bars-staggered pe-2"></i> Background
+                            </button>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2 class="accordion-header">
+                            <button class="asd accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa-solid fa-bars-staggered pe-2"></i> Objective
+                            </button>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2 class="accordion-header">
+                            <button class="asd accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fa-solid fa-bars-staggered pe-2"></i> Guiding principles
+                            </button>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2 class="accordion-header">
+                            <button class="asd accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <i class="fa-solid fa-bars-staggered pe-2"></i> Reform design
+                            </button>
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12" style="background-color: #ffffff;">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fa-solid fa-arrow-right-long pe-2"></i><span class="abs-medium"
+                                    style="color: #0F172A; font-size: 18px;"> Background</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item’s accordion body.</strong> It is shown by default, until
+                                the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                                this with
+                                custom CSS or overriding our default variables. It’s also worth noting that just about
+                                any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+
+
+
+
+                                <div class="accordion" id="accordion_inn">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne_inn" aria-expanded="true"
+                                                aria-controls="collapseOne_inn">
+                                                Accordion Item #1
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne_inn" class="accordion-collapse collapse show"
+                                            data-bs-parent="#accordion_inn">
+                                            <div class="accordion-body">
+                                                <strong>This is the first item’s accordion body.</strong> 11111
+
+                                                <!-- Thired Label Cord  -->
+
+                                                <div class="accordion" id="accordion_inn_thired">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseOne_inn_thired"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseOne_inn_thired">
+                                                                Accordion Item #1
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseOne_inn_thired"
+                                                            class="accordion-collapse collapse show"
+                                                            data-bs-parent="#accordion_inn_thired">
+                                                            <div class="accordion-body">
+                                                                <strong>This is the first item’s accordion
+                                                                    body.</strong> 11111
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseTwo_inn_thired"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseTwo_inn_thired">
+                                                                Accordion Item #2
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseTwo_inn_thired"
+                                                            class="accordion-collapse collapse"
+                                                            data-bs-parent="#accordion_inn_thired">
+                                                            <div class="accordion-body">
+                                                                <strong>This is the second item’s accordion
+                                                                    body.</strong> 22222
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseThree_inn_thired"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseThree_inn_thired">
+                                                                Accordion Item #3
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseThree_inn_thired"
+                                                            class="accordion-collapse collapse"
+                                                            data-bs-parent="#accordion_inn_thired">
+                                                            <div class="accordion-body">
+                                                                <strong>This is the third item’s accordion
+                                                                    body.33333</strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo_inn"
+                                                aria-expanded="false" aria-controls="collapseTwo_inn">
+                                                Accordion Item #2
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo_inn" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion_inn">
+                                            <div class="accordion-body">
+                                                <strong>This is the second item’s accordion body.</strong> 22222
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree_inn"
+                                                aria-expanded="false" aria-controls="collapseThree_inn">
+                                                Accordion Item #3
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree_inn" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion_inn">
+                                            <div class="accordion-body">
+                                                <strong>This is the third item’s accordion body.33333</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa-solid fa-arrow-right-long pe-2"></i><span class="abs-medium"
+                                    style="color: #0F172A; font-size: 18px;"> Objective</span>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item’s accordion body.</strong> It is hidden by default,
+                                until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                                this with
+                                custom CSS or overriding our default variables. It’s also worth noting that just about
+                                any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fa-solid fa-arrow-right-long pe-2"></i><span class="abs-medium"
+                                    style="color: #0F172A; font-size: 18px;"> Guiding principles</span>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until
+                                the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                                this with
+                                custom CSS or overriding our default variables. It’s also worth noting that just about
+                                any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <i class="fa-solid fa-arrow-right-long pe-2"></i><span class="abs-medium"
+                                    style="color: #0F172A; font-size: 18px;">Reform
+                                    design</span>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body px-0">
+                                <small class="p-color">There are 11 components to design a rating reform: </small>
+
+
+
+                                <div class="accordion" id="accordion_inn">
+                                    <ul style="border-left: 2px dashed #ddd;list-style: none;">
+                                        <li>
+                                            <div class="position-relative top_4">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button abs-bold" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne_inn"
+                                                        aria-expanded="true" aria-controls="collapseOne_inn">
+                                                        Component 1: Release the state ratings policy
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne_inn" class="accordion-collapse collapse show"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body p-0">
+                                                        <div class="">
+                                                            <small class="p-color">A formal government notification to
+                                                                be issued
+                                                                covering details of the policy. Once issued, it should
+                                                                also be published
+                                                                on the official portal and shared with all recognised
+                                                                institutes. </small>
+                                                        </div>
+                                                        <!-- Thired Label Cord  -->
+
+                                                        <div class="accordion mt-2" id="accordion_inn_thired">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_thired"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_thired">
+                                                                        <span>
+                                                                            <img src="./assets/images/icons.png">
+                                                                            Highlights from the draft
+                                                                            ratings policy </span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_thired"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_thired">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        <ul class="inn_ul">
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0"><b>Scope and
+                                                                                        coverage:</b> Applies to
+                                                                                    all
+                                                                                    recognised nursing
+                                                                                    and allied health institutes with at
+                                                                                    least two admitted
+                                                                                    batches,
+                                                                                    ensuring universal comparability and
+                                                                                    preventing selective
+                                                                                    participation. Ratings are
+                                                                                    course-specific, with an option
+                                                                                    for
+                                                                                    an aggregate institute score</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0"><b>Validity and
+                                                                                        reassessment:</b>
+                                                                                    Ratings remain valid for three
+                                                                                    years, after which
+                                                                                    reassessment is mandatory to
+                                                                                    maintain recognition and ensure
+                                                                                    sustained quality</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0">
+                                                                                    <b>Parameters:</b>
+                                                                                    Evaluates infrastructure,
+                                                                                    teaching–learning processes,
+                                                                                    clinical and community practice,
+                                                                                    learning outcomes,
+                                                                                    and faculty or student competency,
+                                                                                    aligned with NNMC norms
+                                                                                </p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0"><b>Stages:</b>
+                                                                                    Includes self-assessment, desktop
+                                                                                    verification, independent
+                                                                                    on-ground validation, and regulatory
+                                                                                    approval to
+                                                                                    balance self-reporting with
+                                                                                    independent checks
+                                                                                </p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0"><b>Independent
+                                                                                        verification –</b>
+                                                                                    On-ground inspections by trained,
+                                                                                    empanelled assessors to
+                                                                                    validate compliance
+                                                                                </p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseTwo_inn_thired"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseTwo_inn_thired">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples and
+                                                                            Templates</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseTwo_inn_thired"
+                                                                    class="accordion-collapse collapse"
+                                                                    data-bs-parent="#accordion_inn_thired">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        <ul class="inn_ul">
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0">
+                                                                                    Sample rating policy:
+                                                                                    <a href="#" target="_blank">
+                                                                                        [Download here ]</a>
+                                                                                </p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseThree_inn_thired"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseThree_inn_thired">
+                                                                        <span>
+                                                                            <img src="./assets/images/star.png">
+                                                                            Reference documents</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseThree_inn_thired"
+                                                                    class="accordion-collapse collapse"
+                                                                    data-bs-parent="#accordion_inn_thired">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        <ul class="inn_ul">
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0">
+                                                                                    Policy used in Bihar:
+                                                                                    <a href="#" target="_blank">
+                                                                                        [Download here ]</a>
+                                                                                </p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo_inn"
+                                                        aria-expanded="false" aria-controls="collapseTwo_inn">
+                                                        <p class="fw-bold"> Component 2: Finalise ratings
+                                                            parameters and assessment tools</p>
+
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body pt-0">
+                                                        <strong>This is the second item’s accordion body.</strong> 22222
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree_inn"
+                                                        aria-expanded="false" aria-controls="collapseThree_inn">
+                                                        <p class="fw-bold"> Component 3: Geotag all institutes</p>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body px-2 pt-0">
+                                                        <small class="p-color">Use a state-approved geotagging
+                                                            application to
+                                                            capture latitude and longitude, linked to institute
+                                                            identifiers.
+                                                            This
+                                                            ensures officials can verify locations, plan inspections
+                                                            efficiently, and maintain a publicly accessible, accurate
+                                                            database.</small>
+
+                                                        <!-- Thired Label accordian  START -->
+
+                                                        <div class="accordion mt-2" id="accordion_inn_components_3">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_3_1"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_3_1">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples
+                                                                            and Templates</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_3_1"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_components_3">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        <ul class="inn_ul">
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0">
+                                                                                    Sample SOP for geotagging:
+                                                                                    <a href="#" target="_blank">
+                                                                                        [Download here
+                                                                                        ]</a>
+                                                                                </p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_3_2"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseOne_inn_components_3_2">
+                                                                        <span>
+                                                                            <img src="./assets/images/star.png">
+                                                                            Reference
+                                                                            documents</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_3_2"
+                                                                    class="accordion-collapse collapse"
+                                                                    data-bs-parent="#accordion_inn_components_3">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        <ul class="inn_ul">
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0">
+                                                                                    Sample rating policy:
+                                                                                    <a href="#" target="_blank">
+                                                                                        [Download here ]</a>
+                                                                                </p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <!-- Thired Label accordian  END -->
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFour_inn"
+                                                        aria-expanded="false" aria-controls="collapseFour_inn">
+                                                        <p class="fw-bold"> Component 4: Share documents with institutes
+                                                            for
+                                                            self assessment</p>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFour_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body px-2 pt-0">
+                                                        <small class="p-color">Distribute structured self-assessment
+                                                            formats for
+                                                            nursing and paramedical courses that capture data on
+                                                            infrastructure,
+                                                            faculty, teaching–learning processes, and learning and
+                                                            placement
+                                                            outcomes. Institutes also submit evidence to support
+                                                            their self-assessment. A self assessment training is also
+                                                            conducted
+                                                            for the institutes.</small>
+
+                                                        <!-- Thired Label accordian  START -->
+
+                                                        <div class="accordion mt-2" id="accordion_inn_components_4">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_4_1"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_4_1">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples
+                                                                            and Templates</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_4_1"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_components_4">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        Coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_4_2"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseOne_inn_components_4_2">
+                                                                        <span>
+                                                                            <img src="./assets/images/star.png">
+                                                                            Reference
+                                                                            documents</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_4_2"
+                                                                    class="accordion-collapse collapse"
+                                                                    data-bs-parent="#accordion_inn_components_4">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        Coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Thired Label accordian  END -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFive_inn"
+                                                        aria-expanded="false" aria-controls="collapseFive_inn">
+                                                        <p class="fw-bold"> Component 5: Desk assessment of institutes 
+                                                        </p>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFive_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body px-2 pt-0">
+                                                        <small class="p-color">Distribute structured self-assessment
+                                                            formats for
+                                                            nursing and paramedical courses that capture data on
+                                                            infrastructure,
+                                                            faculty, teaching–learning processes, and learning and
+                                                            placement
+                                                            outcomes. Institutes also submit evidence to support
+                                                            their self-assessment. A self assessment training is also
+                                                            conducted
+                                                            for the institutes.</small>
+
+                                                        <!-- Thired Label accordian  START -->
+
+                                                        <div class="accordion mt-2" id="accordion_inn_components_5">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_5_1"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_5_1">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples and Templates</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_5_1"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_components_5">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        Coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Thired Label accordian  END -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSix_inn"
+                                                        aria-expanded="false" aria-controls="collapseSix_inn">
+                                                        <p class="fw-bold"> Component 6: Independent field assessments
+                                                            of institutes </p>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSix_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body px-2 pt-0">
+                                                        <small class="p-color">Appoint third-party agencies with trained
+                                                            assessors to conduct field assessment of institutes using a
+                                                            uniform checklist.</small>
+
+                                                        <!-- Thired Label accordian  START -->
+
+                                                        <div class="accordion mt-2" id="accordion_inn_components_6">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_6_1"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_6_1">
+                                                                        <span>
+                                                                            <img src="./assets/images/icons.png"> When
+                                                                            having multiple agencies for field
+                                                                            assessment, ensure the following: </span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_6_1"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_components_6">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_6_2"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseOne_inn_components_6_2">
+                                                                        <span>
+                                                                            <img src="./assets/images/icons.png">
+                                                                            Additional steps that may be taken to ensure
+                                                                            quality field assessment
+                                                                        </span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_6_2"
+                                                                    class="accordion-collapse collapse"
+                                                                    data-bs-parent="#accordion_inn_components_6">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_6_3"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseOne_inn_components_6_3">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples and Templates</span>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_6_3"
+                                                                    class="accordion-collapse collapse"
+                                                                    data-bs-parent="#accordion_inn_components_6">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        <ul class="inn_ul">
+                                                                            <li>
+                                                                                <p class="pos_r-13 mb-0">
+                                                                                    Policy used in Bihar:
+                                                                                    <a href="#" target="_blank">
+                                                                                        [Download here ]</a>
+                                                                                </p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_6_4"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseOne_inn_components_6_4">
+                                                                        <span>
+                                                                            <img src="./assets/images/star.png">
+                                                                            Reference documents</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_6_4"
+                                                                    class="accordion-collapse collapse"
+                                                                    data-bs-parent="#accordion_inn_components_6">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        Coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Thired Label accordian  END -->
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSeven_inn"
+                                                        aria-expanded="false" aria-controls="collapseSeven_inn">
+                                                        <p class="fw-bold"> Component 7: Conduct random spot checks of
+                                                            institutes</p>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSeven_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body">
+                                                        <small class="p-color">Appoint third-party agencies with trained
+                                                            assessors to conduct field assessment of institutes using a
+                                                            uniform checklist.</small>
+                                                        <!-- Thired Label accordian  START -->
+
+                                                        <div class="accordion mt-2" id="accordion_inn_components_7">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_7_1"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_7_1">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples and Templates</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_7_1"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_components_7">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Thired Label accordian  END -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseEight_inn"
+                                                        aria-expanded="false" aria-controls="collapseEight_inn">
+                                                        <p class="fw-bold"> Component 8: Calculate provisional rating
+                                                            using score normalisation</p>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseEight_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body">
+                                                        <small class="p-color">Apply a uniform scoring criteria to each
+                                                            parameter, then normalise scores on a scale of 0-100 to 
+                                                            account for variations
+                                                            between course types. Finally, the institutes may be
+                                                            categorised into five bands (A–E), with ‘A’ denoting the
+                                                            highest
+                                                            performing institutes and ‘E’ the lowest. The thresholds
+                                                            should also be defined in each cycle separately for each
+                                                            rating
+                                                            band.</small>
+                                                        <!-- Thired Label accordian  START -->
+
+                                                        <div class="accordion mt-2" id="accordion_inn_components_8">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_8_1"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_8_1">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples and Templates</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_8_1"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_components_8">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Thired Label accordian  END -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapsenine_inn"
+                                                        aria-expanded="false" aria-controls="collapsenine_inn">
+                                                        <p class="fw-bold"> Component 9: Provide provisional rating and
+                                                            grievance redressal mechanism</p>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapsenine_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body">
+                                                        <small class="p-color">Institutes may be provided with a
+                                                            provisional score report. In case of an issue, an institute
+                                                            may raise a grievance with
+                                                            the third party assessment agency. If unsatisfied, it may
+                                                            escalate to the Department GR Committee after depositing a
+                                                            refundable fee (returned if grievance is upheld).</small>
+                                                        <div class="accordion mt-2" id="accordion_inn_components_9">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_9_1"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_9_1">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples and Templates</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_9_1"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_components_9">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_9_2"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_9_2">
+                                                                        <span>
+                                                                            <img src="./assets/images/star.png">
+                                                                            Reference documents</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_9_2"
+                                                                    class="accordion-collapse collapse "
+                                                                    data-bs-parent="#accordion_inn_components_9">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <!-- Thired Label accordian  END -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseten_inn"
+                                                        aria-expanded="false" aria-controls="collapseten_inn">
+                                                        <p class="fw-bold"> Component 10: Release final rating and
+                                                            rating report</p>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseten_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body">
+                                                        <small class="p-color">Ratings may be published on a public
+                                                            portal. The same may also be disseminated through press
+                                                            releases, official social
+                                                            media, and public notices to maximise reach. Institutes with
+                                                            a D/E rating may receive show cause notices. Penalties may
+                                                            include- Imposition of monetary penalty, reducing intake or
+                                                            stoppage of admissions and recommending to the National
+                                                            Commission for withdrawal of recognition.</small>
+                                                        <div class="accordion mt-2" id="accordion_inn_components_10">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_10_1"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_10_1">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples and Templates</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_10_1"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_components_10">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_10_2"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_10_2">
+                                                                        <span>
+                                                                            <img src="./assets/images/star.png">
+                                                                            Reference documents</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_10_2"
+                                                                    class="accordion-collapse collapse "
+                                                                    data-bs-parent="#accordion_inn_components_10">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <!-- Thired Label accordian  END -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="position-relative">
+                                                <div class=" position-absolute" style="left: -35px;">
+                                                    <i class="bi bi-dash-lg"></i><i class="bi bi-dash-lg"
+                                                        style="margin-left: -4px;"></i>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseeleven_inn"
+                                                        aria-expanded="false" aria-controls="collapseeleven_inn">
+                                                        <p class="fw-bold"> Component 11: Initiate re-rating process</p>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseeleven_inn" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordion_inn">
+                                                    <div class="accordion-body">
+                                                        <small class="p-color">Institutes, which would like to make a
+                                                            re-assessment of their rating status, may volunteer for
+                                                            re-assessment, with the
+                                                            empanelled 3rd party assessment agencies at the cost
+                                                            notified.</small>
+                                                        <div class="accordion mt-2" id="accordion_inn_components_10">
+                                                            <div class="accordion-item border rounded-2  mb-3">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button mb-0 p-2"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne_inn_components_10_1"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne_inn_components_10_1">
+                                                                        <span>
+                                                                            <img src="./assets/images/files.png">
+                                                                            Suggested Samples and Templates</span>
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne_inn_components_10_1"
+                                                                    class="accordion-collapse collapse show"
+                                                                    data-bs-parent="#accordion_inn_components_10">
+                                                                    <div class="accordion-body px-2 pt-0">
+                                                                        coming soon...
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <!-- Thired Label accordian  END -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==========================================================================  -->
+        </div>
+    </div>
+
+    <!-- FOOTER  -->
+    <div class="container-fluid">
+        <div class="row" style="background-color: #204667;">
+            <div class="col-sm-12 p-0">
+                <div class="container">
+                    <div class="row pt-4">
+                        <div class="col-sm-12">
+                            <div class="res_mob d-flex justify-content-start gap-3 align-items-center">
+                                <div class="">
+                                    <!-- <h5 class="text-white">Nursing Talent Market <br>
+                                        Reforms Playbook</h5> -->
+                                    <img src="./assets/images/new_NTMR-logo.svg" height="50px" alt="">
+                                </div>
+                                <div class="w-100">
+                                    <!-- <p class="bb">Resource & Links</p> -->
+                                    <ul class="footer_ul">
+                                        <li>
+                                            <a href="ndianNursingCouncilresources.html">Indian Nursing Council
+                                                resources</a>
+                                        </li>
+                                        <li>
+                                            <a href="DownloadPlaybook.html">Download the Playbook</a>
+                                        </li>
+                                        <li>
+                                            <a href="LegalInfo.html">Terms of Use / Legal Info</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <center class="pt-2 pb-2">
+                                <p class="mb-0" style="color: #bdbdbd;"><i class="fa-regular fa-copyright"></i> 2025
+                                    Nursing
+                                    Corporation. All rights
+                                    reserved.</p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    window.addEventListener("scroll", function () {
+        const top_m = document.querySelector(".top_m");
+
+        if (window.scrollY > 74) {
+            top_m.classList.add("scrolled");
+        } else {
+            top_m.classList.remove("scrolled");
+        }
+    });
+</script>
+<script type="text/javascript">
+    AOS.init({
+        duration: 1000
+    });
+    var btn = $('#button');
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+</script>
+
+</html>
