@@ -180,6 +180,7 @@ background-image: url(../images/arr.png);
 }
 .nav-link {
     position: relative;
+    white-space: nowrap;
 }
 .nav-link.active::after{
     position: absolute;
@@ -212,13 +213,14 @@ background-image: url(../images/arr.png);
 .nav-item:nth-last-child(1) .nav-link:hover::after{
  width: 0%;
 }
-.nav-link-main .nav-item:nth-last-child(1) a {
+.nav-item:nth-last-child(1) a {
     background-color: #fff;
     border-radius: 12px;
     color: #333;
     padding: 8px 20px !important;
     font-family: AlbertSans-Bold !important;
 }
+
 .p-lr {
     padding-left: 30px;
     padding-right: 30px;
@@ -1317,4 +1319,11 @@ td.score_strong {
         gap: 12px;
         flex-direction: column;
     }
+}
+
+@media (min-width:992px) and (max-width:1018px){
+  .nav-link {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
 }
