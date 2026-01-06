@@ -238,8 +238,14 @@ margin-right: 10px;
 
 
     .nav-link {
-        padding-right: 15px !important;
-        padding-left: 15px !important;
+        padding-right: 14px !important;
+        padding-left: 14px !important;
+    }
+}
+@media (min-width: 1272px) and (max-width:1282px) {
+    .nav-link {
+        padding-right: 13px !important;
+        padding-left: 13px !important;
     }
 }
 .ntmr_container{
