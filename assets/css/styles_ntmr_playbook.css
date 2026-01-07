@@ -110,7 +110,7 @@ background-image: url(../images/arr.png);
     height: 15px;
     float: right;
     position: relative;
-    top: 7px;
+    top: 9px;
     right: -7px;
     transition: 0.6s;
 }
@@ -1384,7 +1384,7 @@ td.score_strong {
     height: 12px;
     float: right;
     position: relative;
-    top: 9px;
+    top: 7px;
     right: -7px;
     transition: 0.6s;
 }
@@ -1515,4 +1515,18 @@ td.score_strong {
 .card_shd:hover{
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s ease;
+}
+
+@media (min-width:1019px) and (max-width:1200px){
+  .dropdown-toggle .arrow {
+    background-image: url(../images/arr.png);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 15px;
+    float: right;
+    position: relative;
+    top: 8px;
+    right: -7px;
+    transition: 0.6s;
+}
 }
