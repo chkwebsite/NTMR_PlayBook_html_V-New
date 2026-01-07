@@ -1258,17 +1258,24 @@ ol.list_unstyled li ul {
 
         .quest_li_sty{
           list-style: none;
-          float: left;
           width: auto;
           margin-bottom: 0px;
+          padding: 0px;
         }
         .quest_li_sty li{
-          border: 1px solid #ddd;
+          border: 1px solid #e2e8f0;
           border-radius: 6px;
-          padding: 4px 12px;
+          padding: 12px 12px;
+          margin-bottom: 12px;
+          background-color: #f8fafc;
+          font-family: AlbertSans-SemiBold;
+          color: #64748b;
+          cursor: pointer;
         }
         .quest_li_sty li:hover{
-          background-color: #f1f1f1;
+          background-color: #ebf4ff;
+          border-color: #1a365d;
+          cursor: pointer;
         }
         .tab_score_text{
           font-family: AlbertSans-SemiBold;
@@ -1366,14 +1373,27 @@ td.score_strong {
   .nav-link {
     padding-left: 10px !important;
     padding-right: 10px !important;
+            font-size: 12px;
 }
+.dropdown-toggle .arrow {
+    background-image: url(../images/arr.png);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    float: right;
+    position: relative;
+    top: 8px;
+    right: -7px;
+    transition: 0.6s;
+}
+
 }
 .pt_76{
-  padding-top: 76px;
+  padding-top: 74px;
 }
 @media (max-width: 415px) {
   .pt_76{
-    padding-top: 62px;
+    padding-top: 60px;
   }
     .navbar-brand img {
         height: 35px !important;
@@ -1387,4 +1407,46 @@ td.score_strong {
     .navbar-toggler{
       padding: 0px !important;
     }
+}
+
+.question_rib {
+    color: #fff;
+    font-weight: 700;
+    background: linear-gradient(135deg, #1A365D 0%, #2C5282 100%);
+    min-width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 16px 0px 0px 16px;
+}
+.grid_2n{
+  display: grid;
+    grid-template-columns: 56px auto;
+    gap: 0px;
+}
+.tr_ol {
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.btn-secondary {
+    background: #f8fafc;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+}
+.btn-secondary:hover
+ {
+    background: white;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-primary {
+    background: linear-gradient(135deg, #1A365D 0%, #2C5282 100%);
+    color: white;
+    border-color: #1A365D;
+}
+.btn-primary:hover {
+    background: linear-gradient(135deg, #1A365D 0%, #1A365D 100%);
 }
